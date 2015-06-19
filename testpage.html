@@ -79,7 +79,7 @@
 			if (bEndGame)
 			{
 				// Game has ended.
-				document.getElementById("GameMessage").innerHTML = "<div class=\"alert-success\">Congratulations! It took you " +  iTotalTime + " seconds to get to 100 clicks!</div>";
+				document.getElementById("GameMessage").innerHTML = "<div class=\"alert-success\">Congratulations! It took you <strong>" +  iTotalTime + "</strong> seconds to get to 100 clicks!</div>";
 				
 				// Reset Variables
 				iCounter = 0;
@@ -127,13 +127,13 @@
 			
 			<h4>Let's Play A Game!</h4>
 			<span class="info">Get the counter to 100 as fast as you can!</span>
-			<div id="GameMessage"></div>
+			<div id="GameMessage"><div class="alert-warning">Hit "Click Me!" to start the game!</div></div>
 			<pre id="GameCounter">0</pre>
 			<button type="button" onclick="GameAction();" class="btn btn-primary" id="GameButton">Click Me!</button>
 		</div>
 		<div class="container footer">
 			<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 enable-right-border">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 enable-right-border">
 					<h4 class="text-center">Pages</h4>
 					<ul class="text-left">
 						<li class="footeritem"><a href="index.html">Home</a></li>
@@ -142,7 +142,7 @@
 					</ul>
 				</div>
 				
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 enable-right-border">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 enable-right-border">
 					<h4 class="text-center">Information</h4>
 					<dl class="dl-horizontal text-left">
 						<dt>Developed By</dt>
@@ -156,7 +156,7 @@
 					</dl>
 				</div>
 				
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					<h4 class="text-center">Contact Information</h4>
 					
 					<address>
