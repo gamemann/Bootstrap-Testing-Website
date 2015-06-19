@@ -54,7 +54,7 @@ body
 
 .footer
 {
-	max-height: 300px;
+	min-height: 100px;
 	background-color: #FDF8F8;
 	border-top: 1px solid #EEE;
 	-moz-border-radius: 0px 0px 15px 15px;
