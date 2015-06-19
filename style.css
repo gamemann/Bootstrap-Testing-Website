@@ -1,0 +1,79 @@
+body
+{
+	background-color: #E1E1E1;
+}
+
+.navbar
+{
+	background-color: rgba(23, 185, 42, 0.85);
+	margin-bottom: 0px;
+}
+
+.navitem
+{
+	font-size: 1.5em;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.navitem:hover
+{
+	background-color: rgba(23, 185, 42, 0.85);
+}	
+
+.navitem a:link
+{
+	color: #FFF;
+}
+
+.navitem a:visited
+{
+	color: #FFF;
+}
+
+.navitem a:active
+{
+	color: #FFF;
+}
+
+.navitem a:hover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.top-donations
+{
+
+}
+
+.main
+{
+	background-color: #FDF8F8;
+}
+
+.footer
+{
+	max-height: 300px;
+	background-color: #FDF8F8;
+	border-top: 1px solid #EEE;
+	-moz-border-radius: 0px 0px 15px 15px;
+	border-radius: 0px 0px 15px 15px;
+}
+
+.enable-right-border
+{
+	border-right: 1px solid #EEE;
+}
+
+.smalltextbox
+{
+	width: 25em;
+	margin: 0px auto;
+}
+
+.smalltextarea
+{
+	width: 50em;
+	margin: 0px auto;
+}
