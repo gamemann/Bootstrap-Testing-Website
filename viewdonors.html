@@ -6,6 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css" />
 		<link rel="stylesheet" type="text/css" href="style.css" />
 		
+		<!-- JavaScripts -->
+		<script src="js/menu.js"></script>
+		
 		<!-- Other -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,11 +17,23 @@
 	
 	<body>
 		<div class="navbar">
-			<ul class="list-inline list-unstyled container clearfix">
+			<ul class="navlist container hidden-xs">
 				<li class="navitem"><a href="index.html">Home</a></li>
 				<li class="navitem"><a href="#">Projects</a></li>
 				<li class="navitem"><a href="contactus.html">Contact Us</a></li>
 			</ul>
+			
+			<span onclick="OpenMobileMenu();" class="visible-xs open-mobile-navbar arrow"></span>
+			
+			<div class="mobilemenu" style="display: none;">
+				<div class="col-xs-12">
+					<ul class="list-unstyled mobilemenu-list">
+						<li class="mobilemenu-listitem"><a href="index.html">Home</a></li>
+						<li class="mobilemenu-listitem"><a href="#">Projects</a></li>
+						<li class="mobilemenu-listitem"><a href="contactus.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 		<div class="container main">
 			<h1 class="text-center">Donors List</h1>
