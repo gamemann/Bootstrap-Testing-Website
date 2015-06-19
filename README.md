@@ -1,6 +1,9 @@
 # Information
 This is a Bootstrap testing website. This is the first website I created with Bootstrap. This project does not include any PHP code whatsoever.
 
+# Live Version
+A live version of the testing website can be found here: http://gmann.gflclan.com/testsite/index.html
+
 # FAQ
 Q: Can I change the file extensions from PHP to HTML?
 
